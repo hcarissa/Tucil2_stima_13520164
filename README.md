@@ -10,6 +10,7 @@ Hilda Carissa Widelia 13520164
 - [My Convex Hull](#my-convex-hull-library)
   - [Table of Contents](#table-of-contents)
   - [Setup](#setup)
+  - [Cara Menggunakan Program](#cara-menggunakan-program)
   - [Contact Me](#contact-me)
 
 ## Setup
