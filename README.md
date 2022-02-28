@@ -20,7 +20,7 @@ Berikut langkah untuk setup :
 3. Jika belum meng-install library numpy, pandas, matplotlib, dan sklearn silakan ikuti langkah langkah di [sini](#install-packages)
 4. Untuk meng-compile program, tinggal tekan button Run All yang ada di bagian atas layar 
 
-## Install Packages
+### Install Packages
 Masukkan keempat perintah dibawah ini di terminal untuk menginstall packages yang dibutuhkan
   ```sh
   pip install numpy
@@ -32,19 +32,20 @@ Masukkan keempat perintah dibawah ini di terminal untuk menginstall packages yan
 ## Cara menggunakan program
 1. buka folder src
 2. buka file ch.ipynb
-3. jika ingin mengganti dataset, ubah line 5 pada blok 1 menjadi
-  ```sh
-  data = datasets.load_[nama file yang diinginkan]
-  ```
-4. ubah juga line 5, 6, 7, dan 10 pada blok 3 menjadi
+3. run cell pertama, input nama dataset yang diinginkan, dataset yang tersedia ada iris, wine, dan breast-cancer. Jika user memasukkan input yang tidak sesuai, maka akan digunakan dataset iris.
+( input box berada di bagian atas jika menggunakan visual studio code )
+4. untuk mengubah kolom yang akan dibandingkan, ubah line 6, 7, dan 10 pada blok 3 dengan index kolom yang sesuai, kolom paling kiri memiliki index 0, dan indexnya bertambah satu ke kanan
  ```sh
-    plt.title([judul yang diinginkan])
     plt.xlabel(data.feature_names[[kolom untuk data di absis]])
     plt.ylabel(data.feature_names[kolom untuk data di ordinat])
     ...
     bucket = bucket.iloc[:,[<kolom absis, kolom ordinat>]].values
   ```
-5. lalu tekan run all
+5. Jangan lupa ubah line 5 yang berisi judul sesuai dengan judul yang diinginkan
+  ```sh
+    plt.title([Judul yang diinginkan])
+  ```
+6. Tekan run pada blok cell kedua lalu ketiga
 
 ## Contact Me
 - [Hilda Carissa Widelia](https://github.com/hcarissa)
